@@ -1,5 +1,11 @@
 # @backstage/plugin-signals
 
+## 0.0.36-next.1
+
+### Patch Changes
+
+- b8e865b: The signals client now shares one WebSocket connection across simultaneous subscriptions and does not connect or retry when no identity token is available.
+
 ## 0.0.36-next.0
 
 ### Patch Changes

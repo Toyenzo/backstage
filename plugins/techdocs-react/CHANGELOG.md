@@ -1,5 +1,11 @@
 # @backstage/plugin-techdocs-react
 
+## 1.3.16-next.2
+
+### Patch Changes
+
+- 450dd64: Isolated TechDocs addons in individual Suspense boundaries so that a lazy addon no longer hides the surrounding reader while it loads.
+
 ## 1.3.16-next.1
 
 ### Patch Changes

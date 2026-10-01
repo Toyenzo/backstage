@@ -1,5 +1,11 @@
 # @backstage/plugin-catalog-react
 
+## 3.2.4-next.1
+
+### Patch Changes
+
+- c162b94: Fixed the catalog entity list re-writing the URL on every render, which spammed `history.replaceState` and crashed Safari with a `SecurityError`. The URL is now only updated when it actually changes.
+
 ## 3.2.4-next.0
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @backstage/plugin-techdocs-node
 
+## 2.0.3-next.1
+
+### Patch Changes
+
+- Bumped version to account for a patch release.
+
 ## 2.0.2-next.1
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @backstage/plugin-techdocs-backend
 
+## 2.3.1-next.2
+
+### Patch Changes
+
+- 685aee1: Fixed TechDocs asset caching on reused HTTP connections to avoid listener leaks and cross-request response corruption. Existing cached assets are refreshed automatically.
+
 ## 2.3.1-next.1
 
 ### Patch Changes
