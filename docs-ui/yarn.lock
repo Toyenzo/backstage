@@ -375,7 +375,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-community/eslint-utils@npm:^4.8.0, @eslint-community/eslint-utils@npm:^4.9.1":
+"@eslint-community/eslint-utils@npm:4.9.1, @eslint-community/eslint-utils@npm:^4.8.0, @eslint-community/eslint-utils@npm:^4.9.1":
   version: 4.9.1
   resolution: "@eslint-community/eslint-utils@npm:4.9.1"
   dependencies:
@@ -963,18 +963,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:16.2.6":
-  version: 16.2.6
-  resolution: "@next/eslint-plugin-next@npm:16.2.6"
+"@next/eslint-plugin-next@npm:16.3.7":
+  version: 16.3.7
+  resolution: "@next/eslint-plugin-next@npm:16.3.7"
   dependencies:
+    "@eslint-community/eslint-utils": "npm:4.9.1"
     fast-glob: "npm:3.3.1"
-  checksum: 10/2ee412966d41ac2072dd470a2a6f6ea178d26ead45ea5d4f24b248e81e1bea4d5b2ab8d268f0605f901b4b20401e264cd4e67a6770b474b56e66da50d88b6458
+  checksum: 10/ac6352f38c7cad3103995d1f9d75d5e73ae034418cc01546e17bd1cec1060e546a83c74dee918501a0870d0ba4d3dabfda15b83f251ce80f58e7e86fca53c653
   languageName: node
   linkType: hard
 
-"@next/mdx@npm:16.2.6":
-  version: 16.2.6
-  resolution: "@next/mdx@npm:16.2.6"
+"@next/mdx@npm:16.3.7":
+  version: 16.3.7
+  resolution: "@next/mdx@npm:16.3.7"
   dependencies:
     source-map: "npm:^0.7.0"
   peerDependencies:
@@ -985,7 +986,7 @@ __metadata:
       optional: true
     "@mdx-js/react":
       optional: true
-  checksum: 10/01881d7a3573557672330d3c8a696e753bcbc70b4db97bfe92396467980ae1afb40a9e856e2402393b9a785c3ec32477a68e0a9d9902eb33060f523156f57e73
+  checksum: 10/9290319a345d0f3fd9a4309f0bf20df51895a682174c0c02ea42f3340e341931bcf189ac983fe7ca4e1866ba22aae194b1d431c25f02e9a022d8c08f98b2d598
   languageName: node
   linkType: hard
 
@@ -2364,7 +2365,7 @@ __metadata:
     "@lezer/highlight": "npm:^1.2.1"
     "@mdx-js/loader": "npm:^3.1.0"
     "@mdx-js/react": "npm:^3.1.0"
-    "@next/mdx": "npm:16.2.6"
+    "@next/mdx": "npm:16.3.7"
     "@octokit/rest": "npm:^22.0.1"
     "@remixicon/react": "npm:>=4.6.0 <4.9.0"
     "@shikijs/transformers": "npm:^3.13.0"
@@ -2376,7 +2377,7 @@ __metadata:
     "@uiw/react-codemirror": "npm:^4.23.7"
     clsx: "npm:^2.1.1"
     eslint: "npm:^9"
-    eslint-config-next: "npm:16.2.6"
+    eslint-config-next: "npm:16.3.7"
     html-react-parser: "npm:^5.2.5"
     motion: "npm:^12.4.1"
     next: "npm:16.3.3"
@@ -2657,11 +2658,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:16.2.6":
-  version: 16.2.6
-  resolution: "eslint-config-next@npm:16.2.6"
+"eslint-config-next@npm:16.3.7":
+  version: 16.3.7
+  resolution: "eslint-config-next@npm:16.3.7"
   dependencies:
-    "@next/eslint-plugin-next": "npm:16.2.6"
+    "@next/eslint-plugin-next": "npm:16.3.7"
     eslint-import-resolver-node: "npm:^0.3.6"
     eslint-import-resolver-typescript: "npm:^3.5.2"
     eslint-plugin-import: "npm:^2.32.0"
@@ -2676,7 +2677,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/782d0e7b852f88f0ec2287c3581d8226e0b7331386bc325105e455a5f857fb18879e34f13e9fdedd7e083f6ce07d6cd19a3e524ee5a4d3e48ddf6c8ead99617c
+  checksum: 10/2f16b6a00c0ee695e84f5ef5b83d4c014d373740c35303d2a0d621e7e46357d7a3dc5053d61de268c0c78eb295dc1e119248e601635906dc8329df3875fe80b9
   languageName: node
   linkType: hard
 
